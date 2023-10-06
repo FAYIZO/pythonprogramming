@@ -1,4 +1,6 @@
-a=input("\n enter string \n")
-for n in a:
-    if n in 'aeiouAEIOU':
-        print(n)
+vow=["a","e","i","o","u"]
+str="monkey"
+for i in str:
+    for j in vow:
+        if i==j:
+            print(i)
